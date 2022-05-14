@@ -16,3 +16,6 @@
 @import "./seguros/perguntas.css";
 @import "./bicicletas_interno/bicicleta.css";
 @import "./bicicletas/seguro.css";
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+@import "./utilitarios/formulario.css";
