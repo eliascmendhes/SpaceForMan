@@ -21,7 +21,7 @@
 
 .seguros-item {
   background-color: var(--cor-12);
-  padding: 32px 32px 60px;
+  padding: 32px 32px 32px 60px;
   display: grid;
   grid-template-columns: 1fr auto;
   border-radius: 4px;
@@ -34,7 +34,7 @@
 .seguros-item span {
   grid-column: 2;
   display: block;
-  text-align: righ;
+  text-align: right;
 }
 
 .seguros-item ul {
@@ -55,7 +55,7 @@
 .seguros-item li::before {
   content: "";
   display: inline-block;
-  width: 12px;
+  width: 13px;
   height: 9px;
   background-image: url("../../img/icones/lista.svg");
   position: absolute;
