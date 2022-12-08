@@ -18,7 +18,7 @@
   margin-bottom: 32px;
 }
 
-.footer-contato li:nth-child(even)::after {
+.footer-contato li:nth-child(even):after {
   content: "";
   display: block;
   max-width: 360px;
@@ -26,6 +26,7 @@
   background: var(--cor-11);
   margin-top: 16px;
 }
+
 .footer li {
   margin-bottom: 16px;
 }
@@ -41,14 +42,13 @@
 
 .footer-copy {
   grid-column: 1/-1;
-  gap: 40px;
+  margin-top: 40px;
 }
 
 @media (max-width: 800px) {
   .footer > img {
     display: none;
   }
-
   .footer {
     grid-template-columns: 1fr 1fr;
   }
@@ -59,7 +59,6 @@
     grid-template-columns: 1fr;
     gap: 60px;
   }
-
   .footer-copy {
     margin-top: 0px;
   }

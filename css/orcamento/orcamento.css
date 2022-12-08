@@ -120,8 +120,8 @@
   margin-top: 20px;
 }
 
-#bikcraft:checked ~ #orcamento-bikcraft,
-#seguro:checked ~ #orcamento-seguro {
+#SPACE FOR MAN:checked ~ #orcamento-SPACE FOR MAN,
+#espaco:checked ~ #orcamento-espaco {
   display: grid;
   gap: 20px;
 }
